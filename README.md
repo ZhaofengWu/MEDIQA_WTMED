@@ -1,9 +1,15 @@
-This is the official code repository for the paper
+The official PyTorch implementation of our paper:
 
-Zhaofeng Wu, Yan Song, Sicong Huang, Yuanhe Tian and Fei Xia<br/>
-A Hybrid Approach to Biomedical Natural Language Inference
+```
+@inproceedings{wu-etal-2019-wtmed,
+    title = "{WTMED} at {MEDIQA} 2019: A Hybrid Approach to Biomedical Natural Language Inference",
+    author = "Zhaofeng Wu and Yan Song and Sicong Huang and Yuanhe Tian and Fei Xia",
+    booktitle = "Proceedings of the 18th BioNLP Workshop and Shared Task",
+    year = "2019",
+}
+```
 
-This package is based on the repostiory for [Multi-Task Deep Neural Networks (MT-DNN)](https://github.com/namisan/mt-dnn).
+This implementation is based on the repostiory for [Multi-Task Deep Neural Networks (MT-DNN)](https://github.com/namisan/mt-dnn).
 
 # Quickstart
 
