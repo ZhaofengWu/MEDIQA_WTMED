@@ -23,7 +23,7 @@ This implementation is based on the repostiory for [Multi-Task Deep Neural Netwo
 7. Generate features: `python generate_domain_features.py && python generate_generic_features.py`
 8. Put `glove.6B.300d.txt` under the root directory
 9. `python train.py --data_dir data/mt_dnn/ --init_checkpoint mt_dnn_models/mt_dnn_base.pt --batch_size 16 --output_dir checkpoints/model --log_file checkpoints/model/log.log --answer_opt 0 --train_datasets mednli --test_datasets mednli --epochs 15 --stx_parse_dim 100 --glove_path glove.6B.300d.txt --unk_threshold 5 --feature_dim 20 --use_parse --use_generic_features --use_domain_features`
-10. Postprocessing: see `postpro/postpro.py`
+10. Postprocessing: see `postpro/postpro.py`. This is specific to the MedNLI shared task dataset and is not applicable to other datasets
 
 # Language Model Fine-tuning
 
